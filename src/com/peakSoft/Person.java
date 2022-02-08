@@ -48,4 +48,12 @@ public class Person {
         System.out.println("Can talk");
     }
 
+    @Override
+    public String toString() {
+        return "Person{" +
+                "name='" + name + '\'' +
+                ", age=" + age +
+                ", lesson='" + lesson + '\'' +
+                '}';
+    }
 }

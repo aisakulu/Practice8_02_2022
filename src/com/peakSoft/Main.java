@@ -18,7 +18,7 @@ public class Main {
         System.out.println(instr);
         instr.canTalk();
         instr.canWalk();
-        
+
 
 
 

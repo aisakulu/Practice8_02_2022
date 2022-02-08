@@ -14,4 +14,11 @@ public class Student extends Person{
         this.level = level;
     }
 
+    @Override
+    public String toString() {
+        return "Student{" +
+                "time='" + time + '\'' +
+                ", level='" + level + '\'' +
+                '}';
+    }
 }
